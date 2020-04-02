@@ -29,7 +29,6 @@ var $divPicture = (function () {
         index++;
         $('#slider').animate({left:-1200*index},function(){
             if(index==6){
-                // slider.style.left='-1200px';
                 $('#slider').attr('style','left:-1200px');
                 index=1;
             }
@@ -41,7 +40,6 @@ var $divPicture = (function () {
         index--;
         $('#slider').animate({left:-1200*index},function(){
             if(index==0){
-                //slider.style.left='-6000px';
                 $('#slider').attr('style','left:-6000px');
                 index=5;
             }
